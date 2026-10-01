@@ -33,6 +33,7 @@ Revoke it in the same place in the app.
 ## Without the skill
 
 The API is plain HTTPS + JSON — see [questburg.com/en/developers](https://questburg.com/en/developers).
+For the agent itself there is [questburg.com/llms.txt](https://questburg.com/llms.txt).
 
 ```bash
 curl -s -H "Authorization: Bearer $QUESTBURG_API_KEY" https://questburg.com/api/v1/me
