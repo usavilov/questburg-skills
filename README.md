@@ -17,7 +17,7 @@ the like). The skill needs only `bash` and `curl`.
 
 ## Key
 
-1. In the app: **Family → Agents and API → Create key**. The key is shown once.
+1. Create a key at [questburg.com/en/developers](https://questburg.com/en/developers) (or in the app: **Family → Agents and API**). The key is shown once.
 2. Save it where the skill looks for it:
 
 ```bash

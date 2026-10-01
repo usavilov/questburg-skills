@@ -16,9 +16,10 @@ user asked you to approve.
 ## First run
 
 1. Check the key: `scripts/qb.sh me`. If it prints the family, skip to "Usual order".
-2. If it says `No key`, ask the user to create one — in the app: Family →
-   Agents and API → Create key — and to save it themselves, so the key never
-   goes through the chat:
+2. If it says `No key`, ask the user to create one at
+   https://questburg.com/en/developers (step 1 on that page; also in the app:
+   Family → Agents and API) and to save it themselves, so the key never goes
+   through the chat:
 
    ```bash
    mkdir -p ~/.config/questburg && printf '%s' 'qb_PASTE_HERE' > ~/.config/questburg/key && chmod 600 ~/.config/questburg/key
